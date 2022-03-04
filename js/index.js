@@ -12,8 +12,8 @@ function getData(){
             .map(character => {
                 return `
                 <div id="characters"
-                    <p><img src = "${character.imageUrl}" alt="${character.name}"</p>
-                    <p>Name: ${character.name}</p>
+                    <h2 class="title">Name: ${character.name}</h2>
+                    <p><img class="c-img" src = "${character.imageUrl}" alt="${character.name}"></p>
                     <p>TvShows: ${character.tvShows}</p>
                     <p>Films: ${character.films}</p>
                     <p>Videogames: ${character.videoGames}</p>

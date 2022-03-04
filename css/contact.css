@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(61, 210, 230);
+}
+
+.hlogo{
+    background-color: rgb(61, 210, 230);
+}
+
+.logo{
+    color: white;
+    margin-left: 1em;
+    font-family: "Walter", sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+li, .link, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}

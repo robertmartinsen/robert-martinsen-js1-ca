@@ -4,11 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Javascript course assignment</title>
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="icon" href="data:;base64,=" />
 </head>
 <body>
-
-    <script src="/index.js"></script>
+    <header>
+        <h2 class ="hlogo"><a class="logo" href="index.html">Disney Characters</a></h2>
+        <nav>
+            <ul>
+                <li><a class="link" href="contact.html">Contact</a></li>
+                <li><a class="link" href="details.html">Details</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="error"></div>
+    <form id="form" action="/" method="GET">
+        <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+        </div>
+        <div>
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text">
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <input id="address" name="address" type="text" required>
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input id="email" name="email" type="text">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="/js/contact.js"></script>
 </body>
 </html>
-<script link rel="index.js"></script>

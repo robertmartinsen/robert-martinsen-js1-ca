@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(61, 210, 230);
+}
+
+.hlogo{
+    background-color: rgb(61, 210, 230);
+}
+
+.logo{
+    color: white;
+    margin-left: 1em;
+    font-family: "Walter", sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+li, .link, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#characters{
+    background-color: rgb(4, 104, 117);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(4, 104, 117);
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+img{
+    background-color: rgb(4, 104, 117);
+    padding: 10px 10px;
+    margin-bottom: 1em;
+    height: 290px;
+    width: 290px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+    padding: 10px 100px;
+    background-color: rgb(4, 104, 117);
+}
+
+h3 {
+    background-color: rgb(4, 104, 117);
+    color: white;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+h2 {
+    background-color: rgb(4, 104, 117);
+    color: white;
+    
+}
+
+
+.title {
+    color: white;
+    font-family: "typograph", sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 100px;
+}
+
+
+
